@@ -1,0 +1,47 @@
+PODS:
+  - Flutter (1.0.0)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - path_provider (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - testfairy (1.0.20):
+    - Flutter
+    - TestFairy (= 1.25.5)
+  - TestFairy (1.25.5)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - testfairy (from `.symlinks/plugins/testfairy/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - TestFairy
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  testfairy:
+    :path: ".symlinks/plugins/testfairy/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  path_provider: 2e6f55d36e8942c967c4946b5209e21507043e7d
+  sqflite: 1587f63e3eaf6f17c98c519ba21bc9869bff8161
+  TestFairy: abc41a465b711eb4d5f2db3227ebb27c61ec9946
+  testfairy: 45f2a7246b32d1938feb863ee3888d33bc29e855
+
+PODFILE CHECKSUM: fcab1959fbc0528061dce4ed4f921740dc46f1e5
+
+COCOAPODS: 1.10.0.beta.2
